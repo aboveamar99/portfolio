@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0e0e0e;
+  color: #fff;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.title {
+  opacity: 0.8;
+}
+
+.bio {
+  max-width: 500px;
+  margin: 15px 0;
+  opacity: 0.9;
+}
+
+.skills span {
+  display: inline-block;
+  margin: 6px;
+  padding: 6px 12px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.links a {
+  margin: 10px;
+  text-decoration: none;
+  color: #00ffd5;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+  opacity: 0.5;
+}
